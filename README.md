@@ -17,15 +17,18 @@ To explore network sniffing and ARP Attacks
 ARP spoofing: A hacker sends fake ARP packets that link an attacker's MAC address with an IP of a computer already on the LAN. 
 Boot kali and Windows7 virtual machines.
 
-In windows 7 give the command arp -a
+In windows 7 give the command:
+```
+arp -a
+```
 ## OUTPUT:
 ![ethical_4 1](https://github.com/gummadileepkumar/ARP-Attack-and-Network-Sniffing/assets/118707761/8c41b8de-6906-4daa-abad-acc3a28b74a9)
 
 
 From kali linux issue the command :
-
+```
 sudo arpspoof -i eth0 -t <target system> <gateway>
-
+```
 ## OUTPUT:
 ![ethical_4 2](https://github.com/gummadileepkumar/ARP-Attack-and-Network-Sniffing/assets/118707761/10b4e04b-fa73-45a0-898d-0f3040d907c7)
 
@@ -37,9 +40,9 @@ sudo arpspoof -i eth0 -t <target system> <gateway>
 
 
 In Kali issue the following commands:
-
+```
 sudo dsnifff
-
+```
 ## OUTPUT:
 ![ethical_4 4](https://github.com/gummadileepkumar/ARP-Attack-and-Network-Sniffing/assets/118707761/0645264f-feb4-44c3-b942-fbdbbbd4e38e)
 
